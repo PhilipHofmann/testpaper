@@ -1,0 +1,68 @@
+\documentclass[aps,prl,preprint,superscriptaddress]{revtex4-2}
+%\documentclass[aps,prl,preprint,superscriptaddress]{revtex4}
+%\documentclass[nature]{article}
+%\documentclass[aps,prl,preprint,a4paper,groupedaddress]{revtex4}
+%\documentclass[aps,prl,preprint,letterpaper,superscriptaddress]{revtex4}
+%\documentclass[aps,prl,preprint,a4paper,superscriptaddress]{revtex4}
+%\documentclass[aps,prl,twocolumn,showpacs]{revtex4}
+%\documentclass[aps,prl,twocolumn,groupedaddress]{revtex4}
+
+\usepackage{xr-hyper}
+\usepackage{hyperref}
+%\externaldocument{mainpaper}    % Not volume1.tex
+
+\usepackage{graphicx}
+\usepackage{color}
+\newcommand{\mr}[1]{{\textcolor{red} {#1}}}
+\newcommand{\tw}[1]{{\textcolor{blue} {#1}}}
+\newcommand{\su}[1]{{\textcolor{magenta} {#1}}}
+\newcommand{\overbar}[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu}
+
+\newcommand{\hpr}[2]{\ensuremath{\langle #1| #2\rangle}}
+\newcommand{\ket}[1]{\ensuremath{| #1 \rangle}}
+
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\thetable}{S\arabic{figure}}
+\renewcommand{\figurename}{Figure}
+\renewcommand{\tablename}{Table}
+
+\usepackage{mhchem}
+
+\graphicspath {{figures/}}
+
+
+\begin{document}
+
+\title{Title: Supplementary Material}
+
+
+\author{First Author}
+\affiliation{Department of Physics and Astronomy, Aarhus University, 8000 Aarhus C, Denmark}
+
+\author{Philip Hofmann}
+\email{philip@phys.au.dk}
+\affiliation{Department of Physics and Astronomy, Aarhus University, 8000 Aarhus C, Denmark}
+
+
+\maketitle
+
+
+\section{ }
+
+\subsection{Details of experimental methods}
+
+\begin{figure}
+%  \includegraphics[width=0.45\textwidth]{FigS1}\\
+
+  \caption{Something.
+  }
+  \label{fig:S1}
+\end{figure}
+
+
+ \bibliographystyle{apsrev}
+ \bibliography{caruo}
+
+
+
+\end{document}
